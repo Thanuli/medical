@@ -1,2 +1,6 @@
-print("First collaborator - Thanuli")
-print("Second collaborator - Bevindu")
+from django.apps import AppConfig
+
+
+class DoctorappConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'doctorapp'
